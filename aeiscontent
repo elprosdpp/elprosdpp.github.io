@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>AEIS GROUP | Content Creator</title>
+    <link rel="shortcut icon" href="http://localhost/sdpp/assets/upload/image/Icon.png" />
+    <link rel="stylesheet" href="http://localhost/sdpp/assets/front/assets/vendors/animate.css/animate.min.css" />
+    <link rel="stylesheet" href="http://localhost/sdpp/assets/front/assets/vendors/slick-carousel/slick.css" />
+    <link rel="stylesheet" href="http://localhost/sdpp/assets/front/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="http://localhost/sdpp/assets/front/assets/vendors/slick-carousel/slick-theme.css" />
+    <link rel="stylesheet" href="http://localhost/sdpp/assets/front/assets/vendors/carousel/style.css" />
+    <link rel="stylesheet" href="http://localhost/sdpp/assets/front/assets/css/style.css" />
+    <script src="http://localhost/sdpp/assets/front/assets/vendors/jquery/jquery.min.js"></script>
+    <script src="http://localhost/sdpp/assets/front/assets/js/loader.js"></script>
+</head>
+
+<body><div class="oleez-loader"></div>
+<header class="oleez-header">
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="http://localhost/sdpp/home"><img src="http://localhost/sdpp/assets/upload/image/Logo_4-01.png" alt="Oleez" /></a>
+        <ul class="nav nav-actions d-lg-none ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#!" data-toggle="searchModal">
+                    <img src="http://localhost/sdpp/assets/front/assets/images/search.svg" alt="search" />
+                </a>
+            </li>
+            <li class="nav-item nav-item-cart">
+                <a class="nav-link" href="#!">
+                    <span class="cart-item-count">0</span>
+                    <img src="http://localhost/sdpp/assets/front/assets/images/shopping-cart.svg" alt="cart" />
+                </a>
+            </li>
+            <li class="nav-item dropdown d-none d-sm-block">
+                <a class="nav-link dropdown-toggle" href="#!" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ENG</a>
+                <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                    <a class="dropdown-item" href="#!">ARB</a>
+                    <a class="dropdown-item" href="#!">FRE</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#!" data-toggle="offCanvasMenu">
+                    <img src="http://localhost/sdpp/assets/front/assets/images/social icon@2x.svg" alt="social-nav-toggle" />
+                </a>
+            </li>
+        </ul>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#oleezMainNav" aria-controls="oleezMainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="oleezMainNav">
+            <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                <li class="nav-item ">
+                    <a class="nav-link" href="http://localhost/sdpp/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost/sdpp/blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost/sdpp/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="http://localhost/sdpp/about">About</a>
+                </li>
+
+            </ul>
+            <ul class="navbar-nav d-none d-lg-flex">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-btn" href="#!" data-toggle="searchModal">
+                        <img src="http://localhost/sdpp/assets/front/assets/images/search.svg" alt="search" />
+                    </a>
+                </li>
+                <li class="nav-item ml-5">
+                    <a class="nav-link pr-0 nav-link-btn" href="#!" data-toggle="offCanvasMenu">
+                        <img src="http://localhost/sdpp/assets/front/assets/images/social icon@2x.svg" alt="social-nav-toggle" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header><section>
+    <div class="container wow fadeIn">
+        <div id="oleezLandingCarousel" class="oleez-landing-carousel carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                                                            <div class="carousel-item active">
+                            <img src="http://localhost/sdpp/assets/upload/image/Banner_41.jpg" alt="Desain Logo" title="Desain Logo" class="w-100" />
+                            <div class="carousel-caption">
+                                <h2 data-animation="animated fadeInRight">
+                                    <span>AEIS</span>
+                                </h2>
+                                <h2 data-animation="animated fadeInRight">
+                                    <span>GROUP</span>
+                                </h2>
+                                <a href="#!" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                            </div>
+                        </div>
+                                                                                <div class="carousel-item">
+                            <img src="http://localhost/sdpp/assets/upload/image/Banner_1@2x1.jpg" alt="slider 1" title="slider 1" class="w-100" />
+                            <div class="carousel-caption">
+                                <h2 data-animation="animated fadeInRight">
+                                    <span>AEIS</span>
+                                </h2>
+                                <h2 data-animation="animated fadeInRight">
+                                    <span>GROUP</span>
+                                </h2>
+                                <a href="#!" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                            </div>
+                        </div>
+                                                                                <div class="carousel-item">
+                            <img src="http://localhost/sdpp/assets/upload/image/Banner_2.jpg" alt="Pengembangan Jaringan RT/RW" title="Pengembangan Jaringan RT/RW" class="w-100" />
+                            <div class="carousel-caption">
+                                <h2 data-animation="animated fadeInRight">
+                                    <span>AEIS</span>
+                                </h2>
+                                <h2 data-animation="animated fadeInRight">
+                                    <span>GROUP</span>
+                                </h2>
+                                <a href="#!" class="carousel-item-link" data-animation="animated fadeInRight">EXPLORE PROJECT</a>
+                            </div>
+                        </div>
+                                                </div>
+        </div>
+    </div>
+</section><main>
+    <section class="oleez-landing-section oleez-landing-section-about">
+        <div class="container">
+            <div class="oleez-landing-section-content">
+                <div class="oleez-landing-section-verticals wow fadeIn">
+                    <span class="number">01</span>
+                    <img src="http://localhost/sdpp/assets/front/assets/images/Logo_4-01.png" alt="ollez" height="12px" />
+                </div>
+                <div class="row landing-about-content wow fadeInUp">
+                    <div class="col-md-6">
+                        <h2>We help and solve your business problem.</h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio corporis delectus dolorem possimus, dolor rerum.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 landing-about-feature wow fadeInUp">
+                        <img src="http://localhost/sdpp/assets/front/assets/images/icon_1.svg" alt="document" class="about-feature-icon" />
+                        <h5 class="about-feature-title">Market Research</h5>
+                        <p class="about-feature-description">
+                            Lorem Ipsum is simply text the printing and typesetting
+                            standard industry.
+                        </p>
+                    </div>
+                    <div class="col-md-4 landing-about-feature wow fadeInUp">
+                        <img src="http://localhost/sdpp/assets/front/assets/images/icon_2.svg" alt="document" class="about-feature-icon" />
+                        <h5 class="about-feature-title">Wireframe/Sketch</h5>
+                        <p class="about-feature-description">
+                            Lorem Ipsum is simply text the printing and typesetting
+                            standard industry.
+                        </p>
+                    </div>
+                    <div class="col-md-4 landing-about-feature wow fadeInUp">
+                        <img src="http://localhost/sdpp/assets/front/assets/images/icon_3.svg" alt="document" class="about-feature-icon" />
+                        <h5 class="about-feature-title">Creative Design</h5>
+                        <p class="about-feature-description">
+                            Lorem Ipsum is simply text the printing and typesetting
+                            standard industry.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="oleez-landing-section oleez-landing-section-projects">
+        <div class="container">
+            <div class="oleez-landing-section-content">
+                <div class="oleez-landing-section-verticals wow fadeIn">
+                    <span class="number">02</span>
+                    <img src="http://localhost/sdpp/assets/front/assets/images/Logo_4-01.png" alt="oleez" height="12px" />
+                </div>
+                <h2 class="section-title wow fadeInUp">
+                    Latest Projects
+                    <a href="http://localhost/sdpp/blog" class="all-projects-link">View All</a>
+                </h2>
+                <div class="landing-projects-carousel wow fadeIn">
+                                            <div class="card landing-project-card">
+                            <img src="http://localhost/sdpp/assets/upload/image/thumbs/images.jpg" class="card-img" alt="Project 1" />
+                            <div class="card-img-overlay">
+                                <h6 class="project-category">Cara Menghitung Jumlah Baris Pada Tabel Dengan Cogeigniter</h6>
+                                <h5 class="project-title">Kesehatan</h5>
+                                <h5><a href="http://localhost/sdpp/blog/read/18-cara-menghitung-jumlah-baris-pada-tabel-dengan-cogeigniter" class="btn btn-primary btn-sm">View Tutorial</a></h5>
+                            </div>
+                        </div>
+                                            <div class="card landing-project-card">
+                            <img src="http://localhost/sdpp/assets/upload/image/thumbs/jasa-joki-mobile-legend.jpg" class="card-img" alt="Project 1" />
+                            <div class="card-img-overlay">
+                                <h6 class="project-category">Joki Mobile Legends</h6>
+                                <h5 class="project-title">Kesehatan</h5>
+                                <h5><a href="http://localhost/sdpp/blog/read/17-joki-mobile-legends" class="btn btn-primary btn-sm">View Tutorial</a></h5>
+                            </div>
+                        </div>
+                                            <div class="card landing-project-card">
+                            <img src="http://localhost/sdpp/assets/upload/image/thumbs/setting-mikrotik-loadbalance-1-600x468.jpg" class="card-img" alt="Project 1" />
+                            <div class="card-img-overlay">
+                                <h6 class="project-category">Perakitan Jaringan Internet</h6>
+                                <h5 class="project-title">Kesehatan</h5>
+                                <h5><a href="http://localhost/sdpp/blog/read/16-perakitan-jaringan-internet" class="btn btn-primary btn-sm">View Tutorial</a></h5>
+                            </div>
+                        </div>
+                                            <div class="card landing-project-card">
+                            <img src="http://localhost/sdpp/assets/upload/image/thumbs/Demo.png" class="card-img" alt="Project 1" />
+                            <div class="card-img-overlay">
+                                <h6 class="project-category">Desain Menggunakan Power Point</h6>
+                                <h5 class="project-title">Elektronik</h5>
+                                <h5><a href="http://localhost/sdpp/blog/read/15-desain-logo" class="btn btn-primary btn-sm">View Tutorial</a></h5>
+                            </div>
+                        </div>
+                                    </div>
+                <!-- <div class="slick-navbtn-wrapper"></div> -->
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="oleez-landing-section oleez-landing-section-team">
+        <div class="container">
+            <div class="oleez-landing-section-content">
+                <div class="oleez-landing-section-verticals wow fadeIn">
+                    <span class="number">03</span>
+                    <img src="http://localhost/sdpp/assets/front/assets/images/Logo_4-01.png" alt="ollez" height="12px" />
+                </div>
+                <div class="row landing-team-content wow fadeInUp">
+                    <div class="col-md-6">
+                        <h2 class="section-title">
+                            Tim Pengembang
+                        </h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Pengembang Website
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+    <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
+        <img src="http://localhost/sdpp/assets/front/assets/images/Tim1.png" alt="Team Member" class="team-card-img" />
+        <h5 class="team-card-name">Aderana Sabila</h5>
+        <p class="team-card-job">Analisis</p>
+        <nav class="team-card-social-links">
+            <a href="#!">Fb</a>
+            <a href="#!">Tw</a>
+            <a href="#!">In</a>
+        </nav>
+    </div>
+    <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
+        <img src="http://localhost/sdpp/assets/front/assets/images/Tim3.png" alt="Team Member" class="team-card-img" />
+        <h5 class="team-card-name">Enggar Rearso Anando</h5>
+        <p class="team-card-job">UI/UX DESAIN</p>
+        <nav class="team-card-social-links">
+            <a href="#!">Fb</a>
+            <a href="#!">Tw</a>
+            <a href="#!">In</a>
+        </nav>
+    </div>
+    <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
+        <img src="http://localhost/sdpp/assets/front/assets/images/Tim4.png" alt="Team Member" class="team-card-img" />
+        <h5 class="team-card-name">Sugeng Deri Pratama</h5>
+        <p class="team-card-job">Code</p>
+        <nav class="team-card-social-links">
+            <a href="#!">Fb</a>
+            <a href="#!">Tw</a>
+            <a href="#!">In</a>
+        </nav>
+    </div>
+    <div class="col-md-4 mb-5 mb-md-0 landing-team-card wow flipInY">
+        <img src="http://localhost/sdpp/assets/front/assets/images/Tim5.png" alt="Team Member" class="team-card-img mt-5" />
+        <h5 class="team-card-name">Ilham Alfan Mubarok</h5>
+        <p class="team-card-job">Testing</p>
+        <nav class="team-card-social-links">
+            <a href="#!">Fb</a>
+            <a href="#!">Tw</a>
+            <a href="#!">In</a>
+        </nav>
+    </div>
+</div>            </div>
+        </div>
+    </section>
+    <section class=" oleez-landing-section oleez-landing-section-client">
+        <div class="container">
+            <div class="oleez-landing-section-content">
+                <div class="oleez-landing-section-verticals wow fadeIn">
+                    <span class="number">04</span>
+                    <img src="http://localhost/sdpp/assets/front/assets/images/Logo_4-01.png" alt="ollez" height="12px" />
+                </div>
+                <h2 class="section-title mb-1 wow fadeInUp">Partners & clients</h2>
+                <p class="client-section-subtitle">
+                    We’re constantly refining our product. Adding new features.
+                    Working to help your business grow.
+                </p>
+                <div class="row">
+                    <div class="col-md-4 client-logo-wrapper wow flipInX">
+                        <div class="client-logo">
+                            <img src="http://localhost/sdpp/assets/front/assets/images/client_4.png" alt="client" height="50px" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 client-logo-wrapper wow flipInX">
+                        <div class="client-logo">
+                            <img src="http://localhost/sdpp/assets/front/assets/images/client_2.png" alt="client" height="50px" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 client-logo-wrapper wow flipInX">
+                        <div class="client-logo">
+                            <img src="http://localhost/sdpp/assets/front/assets/images/client_1.png" alt="client" height="50px" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 client-logo-wrapper wow flipInX">
+                        <div class="client-logo">
+                            <img src="http://localhost/sdpp/assets/front/assets/images/client_6.png" alt="client" height="50px" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 client-logo-wrapper wow flipInX">
+                        <div class="client-logo">
+                            <img src="http://localhost/sdpp/assets/front/assets/images/client_3.png" alt="client" height="50px" />
+                        </div>
+                    </div>
+                    <div class="col-md-4 client-logo-wrapper wow flipInX">
+                        <div class="client-logo">
+                            <img src="http://localhost/sdpp/assets/front/assets/images/client_5.png" alt="client" height="50px" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main><footer class="oleez-footer wow fadeInUp">
+    <div class="container">
+        <div class="footer-content">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="http://localhost/sdpp/assets/upload/image/Icon.png" alt="oleez" class="footer-logo" />
+                    <p class="footer-intro-text">
+                        Website Ini Berguna Sebagai Media Pembelajaran Berbasis Web Yang Dikembangkan Oleh Mahasiswa Teknik Informatika Universitas Ngudi Waluyo                    </p>
+                    <nav class="footer-social-links">
+                        <a href="facebook.com">Fb</a>
+                        <a href="#!">Tw</a>
+                        <a href="instagram.com">In</a>
+                        <a href="#!">Be</a>
+                    </nav>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 footer-widget-text">
+                            <h6 class="widget-title">KONTAK</h6>
+                            <p class="widget-content">085745864324</p>
+                        </div>
+                        <div class="col-md-6 footer-widget-text">
+                            <h6 class="widget-title">EMAIL</h6>
+                            <p class="widget-content">aeisgroup@gmail.com</p>
+                        </div>
+                        <div class="col-md-6 footer-widget-text">
+                            <h6 class="widget-title">ALAMAT</h6>
+                            <p class="widget-content">
+                                Universitas Ngudi Waluyo <br>Jl. Diponegoro no.186 Ungaran Timur Kab. Semarang                            </p>
+                        </div>
+                        <div class="col-md-6 footer-widget-text">
+                            <h6 class="widget-title">JAM KERJA</h6>
+                            <p class="widget-content">
+                                UNLIMITED
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-text">
+            <p class="mb-md-0">
+                © 2020, oleez Theme. Made with passion by
+                <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer" class="text-reset">BootstrapDash</a> <a style="color:#FFA300;">[ Composed by AEIS GROUP ]</a>
+            </p>
+            <p class="mb-0">All right reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Modals -->
+<!-- Off canvas social menu -->
+<nav id="offCanvasMenu" class="off-canvas-menu">
+    <button type="button" class="close" aria-label="Close" data-dismiss="offCanvasMenu">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <ul class="oleez-social-menu">
+        <li>
+            <a href="#!" class="oleez-social-menu-link">Facebook</a>
+        </li>
+        <li>
+            <a href="#!" class="oleez-social-menu-link">Instagram</a>
+        </li>
+        <li>
+            <a href="#!" class="oleez-social-menu-link">Behance</a>
+        </li>
+        <li>
+            <a href="#!" class="oleez-social-menu-link">Dribbble</a>
+        </li>
+        <li>
+            <a href="#!" class="oleez-social-menu-link">Email</a>
+        </li>
+    </ul>
+</nav>
+<!-- Full screen search box -->
+<div id="searchModal" class="search-modal">
+    <button type="button" class="close" aria-label="Close" data-dismiss="searchModal">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <form action="index.html" method="get" class="oleez-overlay-search-form">
+        <label for="search" class="sr-only">Search</label>
+        <input type="search" class="oleez-overlay-search-input" id="search" name="search" placeholder="Search here" />
+    </form>
+</div>
+<script src="http://localhost/sdpp/assets/front/assets/vendors/popper.js/popper.min.js"></script>
+<script src="http://localhost/sdpp/assets/front/assets/vendors/wowjs/wow.min.js"></script>
+<script src="http://localhost/sdpp/assets/front/assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="http://localhost/sdpp/assets/front/assets/js/bootstrap.bundle.min.js"></script>
+<script src="http://localhost/sdpp/assets/front/assets/vendors/slick-carousel/slick.min.js"></script>
+<script src="http://localhost/sdpp/assets/front/assets/js/main.js"></script>
+<script src="http://localhost/sdpp/assets/front/assets/vendors/carousel/carousel.js"></script>
+<!-- <script src="http://localhost/sdpp/assets/front/assets/js/jquery-3.5.1.min.js"></script> -->
+<script src="http://localhost/sdpp/assets/front/assets/js/landing.js"></script>
+<script>
+    new WOW({
+        mobile: false
+    }).init();
+</script>
+<!-- <script>
+    $(document).ready(function() {
+        $("#myCarousel").on("slide.bs.carousel", function(e) {
+            var $e = $(e.relatedTarget);
+            var idx = $e.index();
+            var itemsPerSlide = 3;
+            var totalItems = $(".carousel-item").length;
+
+            if (idx >= totalItems - (itemsPerSlide - 1)) {
+                var it = itemsPerSlide - (totalItems - idx);
+                for (var i = 0; i < it; i++) {
+                    // append slides to end
+                    if (e.direction == "left") {
+                        $(".carousel-item")
+                            .eq(i)
+                            .appendTo(".carousel-inner");
+                    } else {
+                        $(".carousel-item")
+                            .eq(0)
+                            .appendTo($(this).find(".carousel-inner"));
+                    }
+                }
+            }
+        });
+    });
+</script> -->
+</body>
+
+</html>
